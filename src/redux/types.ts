@@ -1,0 +1,4 @@
+export const TASK_TYPES = {
+  SAVE_TASK: 'SAVE_TASK',
+  UPDATE_TASKS: 'UPDATE_TASKS',
+};
