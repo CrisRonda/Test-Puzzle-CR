@@ -1,10 +1,25 @@
 # Test to Puzzle
 
-This project has a React Native code.
+**Editor:** [Cristian Ronda](https://cristian-ronda.tk/)
 
-# Code by [Cristian Ronda](https://cristian-ronda.tk/)
+**Email:** cristian.ronda.dev@gmail.com
 
-Download mi CV in [English](https://drive.google.com/file/d/1NUGIBupzp4uJ69JeYrBevXJYJFlTHdbJ/view?usp=sharing) or [Spanish](https://drive.google.com/file/d/1Y3OP2mqZHTziH7EATBho3DFLeIfXo7-Z/view?usp=sharing)
+**Date:** 5th july 2021
+
+Download my resumen in [English](https://drive.google.com/file/d/1NUGIBupzp4uJ69JeYrBevXJYJFlTHdbJ/view?usp=sharing) or [Spanish](https://drive.google.com/file/d/1Y3OP2mqZHTziH7EATBho3DFLeIfXo7-Z/view?usp=sharing)
+
+# Description
+
+This project has a React Native code for apply in Puzzle Company.
+
+# Libraries and frameworks
+
+- React Native
+- Redux
+- TypeScript
+- Expo
+- Async storage
+- React Navigation
 
 # Structure
 
@@ -13,7 +28,7 @@ The code is on src/ folder
 - App.tsx: entrypoint of app
 - components: UI components in page
 - constants: values that not change
-- containers: components with logic
+- containers: components with screen logic
 - hooks: hooks into project
 - navigation: navigation of app (Stack and Top Tabs)
 - redux: reducers, actions types and store of redux
@@ -61,14 +76,16 @@ The code is on src/ folder
 
 ## Responsive
 
-<div>
+On iOS, Android and small Android
+
 <img src="./screenshots/2.png"
+     width='32%'
      alt="IOS"
-     width="32%"/>
-     <img src="./screenshots/a1.png"
+     />
+<img src="./screenshots/a1.png"
      alt="Android"
-     width="30%"/>
-       <img src="./screenshots/s2.png"
-     alt="Androis - small"
-     width="33%"/>
-</div>
+     width='32%'
+     />
+<img src="./screenshots/s2.png"
+     width='33%'
+     alt="Androis - small"/>
